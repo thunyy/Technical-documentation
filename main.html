@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation Page - FreeCodeCamp</title>
+</head>
+
+
+<!--menu bar-->
+  
+<body>
+  <header id="main-header">
+    <nav id="navbar">
+      <header>Python Documentation</header>
+        <ul>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Getting_Started">Getting Started</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Print">Print</a>
+        <a class="nav-link" href="#Input">Input</a>
+       <a class="nav-link" href="#Conditionals_and_Loops">Conditionals and Loops</a>  
+      <a class="nav-link" href="#Functions">Functions</a>   
+      </ul>
+
+    </nav>
+    </header>
+
+<!--1.intro-->
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article class="main-article">
+        <ul>
+          <li>Python is a high-level, general-purpose programming language. </li>
+          <li>Its design philosophy emphasizes code readability with the use of significant indentation via the off-side rule. </li>
+          <li>Python is dynamically typed and garbage-collected.</li>
+          <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+          <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+        </ul>
+      </article>
+    </section>
+
+
+<!--2.getting started-->
+    <section class="main-section" id="Getting_Started">
+      <header>Getting Started</header>
+      <article class="main-article">
+        <p>Every program you write for Code in Place will always include the following code to define and execute a main() function:</p>
+      <code>def main():
+    # Your code goes here
+if __name__ == '__main__':
+    main()</code>
+      </article>
+    </section>
+
+
+<!--3.Variable-->
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <article class="main-article">
+        <ul>
+          <li>Python has no command for declaring a variable.
+          <li>A variable is created the moment you first assign a value to it.
+        </ul>
+         <code>variable_name = value</code>
+      </article>
+    </section>
+
+
+<!--4.Print-->
+<section class="main-section" id="Print">
+      <header>Print</header>
+      <article class="main-article">
+
+        <p>Printing a string literal</p>
+         <code># Remember to surround your message in single '' or double "" quotes
+print("Hello, World!")</code>
+      
+        <p>Printing a variable</p>
+         <code># Change the value of data and see what happens
+data = 137.2
+print(data)</code>  
+
+         <p>Multi-Argument Print</p>
+         <code>name = "Karel"
+# Python automatically separates each argument with a space
+print("Hello, my name is", name)</code>  
+          
+      </article>
+    </section>
+
+<!--5.input-->
+    <section class="main-section" id="Input">
+      <header>Input</header>
+      <article class="main-article">
+   
+        <p>Storing user input as a variable</p>
+         <code># Change the value of data and see what happens
+data = 137.2
+print(data)</code>  
+
+         <p>Storing numerical inputs</p>
+         <code>name = "Karel"
+# Python automatically separates each argument with a space
+print("Hello, my name is", name)</code>         
+
+      </article>
+    </section>
+
+<!--6.Conditionals & Loops-->
+    <section class="main-section" id="Conditionals_and_Loops">
+      <header>Conditionals and Loops</header>
+      <article class="main-article">
+   
+        <p>If Statements</p>
+         <code>if condition:
+   # Do something</code>  
+
+         <p>While Loop</p>
+         <code>while condition:
+    # Repeat this until condition is false </code>         
+
+          <p>For Loop</p>
+         <code>for i in range(n):
+    # Repeat this n times</code>         
+
+      </article>
+    </section>
+
+
+<!--7.Functions-->
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <article class="main-article">
+   
+        <p>Anatomy of a Function</p>
+         <code>def name_of_function(parameters): #This line is the function header
+    # Function Body
+    return value # Optional Return Statement</code>  
+      </article>
+    </section>
+
+
+
+    <p id="creator">This page Recreated by <a href="https://github.com/thunyy">FreeCodeCamp-Solutions</a></p>
+  </main>
+</body>
+
+</html>
+
